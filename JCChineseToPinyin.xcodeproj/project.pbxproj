@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBAE52161DF512EB00E71BA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE52151DF512EB00E71BA6 /* main.m */; };
+		CBAE52191DF512EB00E71BA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE52181DF512EB00E71BA6 /* AppDelegate.m */; };
+		CBAE521C1DF512EB00E71BA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE521B1DF512EB00E71BA6 /* ViewController.m */; };
+		CBAE521F1DF512EB00E71BA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBAE521D1DF512EB00E71BA6 /* Main.storyboard */; };
+		CBAE52211DF512EB00E71BA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBAE52201DF512EB00E71BA6 /* Assets.xcassets */; };
+		CBAE52241DF512EB00E71BA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBAE52221DF512EB00E71BA6 /* LaunchScreen.storyboard */; };
+		CBAE522F1DF512EB00E71BA6 /* JCChineseToPinyinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE522E1DF512EB00E71BA6 /* JCChineseToPinyinTests.m */; };
+		CBAE523A1DF512EC00E71BA6 /* JCChineseToPinyinUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE52391DF512EC00E71BA6 /* JCChineseToPinyinUITests.m */; };
+		CBAE52491DF512F700E71BA6 /* JCChineseToPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAE52471DF512F700E71BA6 /* JCChineseToPinyin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBAE522B1DF512EB00E71BA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBAE52091DF512EB00E71BA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBAE52101DF512EB00E71BA6;
+			remoteInfo = JCChineseToPinyin;
+		};
+		CBAE52361DF512EC00E71BA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBAE52091DF512EB00E71BA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBAE52101DF512EB00E71BA6;
+			remoteInfo = JCChineseToPinyin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBAE52111DF512EB00E71BA6 /* JCChineseToPinyin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JCChineseToPinyin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBAE52151DF512EB00E71BA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBAE52171DF512EB00E71BA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBAE52181DF512EB00E71BA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBAE521A1DF512EB00E71BA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBAE521B1DF512EB00E71BA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBAE521E1DF512EB00E71BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CBAE52201DF512EB00E71BA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBAE52231DF512EB00E71BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CBAE52251DF512EB00E71BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBAE522A1DF512EB00E71BA6 /* JCChineseToPinyinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCChineseToPinyinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBAE522E1DF512EB00E71BA6 /* JCChineseToPinyinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCChineseToPinyinTests.m; sourceTree = "<group>"; };
+		CBAE52301DF512EB00E71BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBAE52351DF512EC00E71BA6 /* JCChineseToPinyinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCChineseToPinyinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBAE52391DF512EC00E71BA6 /* JCChineseToPinyinUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCChineseToPinyinUITests.m; sourceTree = "<group>"; };
+		CBAE523B1DF512EC00E71BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBAE52471DF512F700E71BA6 /* JCChineseToPinyin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCChineseToPinyin.m; sourceTree = "<group>"; };
+		CBAE52481DF512F700E71BA6 /* JCChineseToPinyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCChineseToPinyin.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBAE520E1DF512EB00E71BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAE52271DF512EB00E71BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAE52321DF512EB00E71BA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBAE52081DF512EB00E71BA6 = {
+			isa = PBXGroup;
+			children = (
+				CBAE52131DF512EB00E71BA6 /* JCChineseToPinyin */,
+				CBAE522D1DF512EB00E71BA6 /* JCChineseToPinyinTests */,
+				CBAE52381DF512EC00E71BA6 /* JCChineseToPinyinUITests */,
+				CBAE52121DF512EB00E71BA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBAE52121DF512EB00E71BA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBAE52111DF512EB00E71BA6 /* JCChineseToPinyin.app */,
+				CBAE522A1DF512EB00E71BA6 /* JCChineseToPinyinTests.xctest */,
+				CBAE52351DF512EC00E71BA6 /* JCChineseToPinyinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBAE52131DF512EB00E71BA6 /* JCChineseToPinyin */ = {
+			isa = PBXGroup;
+			children = (
+				CBAE52171DF512EB00E71BA6 /* AppDelegate.h */,
+				CBAE52181DF512EB00E71BA6 /* AppDelegate.m */,
+				CBAE521A1DF512EB00E71BA6 /* ViewController.h */,
+				CBAE521B1DF512EB00E71BA6 /* ViewController.m */,
+				CBAE52481DF512F700E71BA6 /* JCChineseToPinyin.h */,
+				CBAE52471DF512F700E71BA6 /* JCChineseToPinyin.m */,
+				CBAE521D1DF512EB00E71BA6 /* Main.storyboard */,
+				CBAE52201DF512EB00E71BA6 /* Assets.xcassets */,
+				CBAE52221DF512EB00E71BA6 /* LaunchScreen.storyboard */,
+				CBAE52251DF512EB00E71BA6 /* Info.plist */,
+				CBAE52141DF512EB00E71BA6 /* Supporting Files */,
+			);
+			path = JCChineseToPinyin;
+			sourceTree = "<group>";
+		};
+		CBAE52141DF512EB00E71BA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBAE52151DF512EB00E71BA6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBAE522D1DF512EB00E71BA6 /* JCChineseToPinyinTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBAE522E1DF512EB00E71BA6 /* JCChineseToPinyinTests.m */,
+				CBAE52301DF512EB00E71BA6 /* Info.plist */,
+			);
+			path = JCChineseToPinyinTests;
+			sourceTree = "<group>";
+		};
+		CBAE52381DF512EC00E71BA6 /* JCChineseToPinyinUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CBAE52391DF512EC00E71BA6 /* JCChineseToPinyinUITests.m */,
+				CBAE523B1DF512EC00E71BA6 /* Info.plist */,
+			);
+			path = JCChineseToPinyinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBAE52101DF512EB00E71BA6 /* JCChineseToPinyin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBAE523E1DF512EC00E71BA6 /* Build configuration list for PBXNativeTarget "JCChineseToPinyin" */;
+			buildPhases = (
+				CBAE520D1DF512EB00E71BA6 /* Sources */,
+				CBAE520E1DF512EB00E71BA6 /* Frameworks */,
+				CBAE520F1DF512EB00E71BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCChineseToPinyin;
+			productName = JCChineseToPinyin;
+			productReference = CBAE52111DF512EB00E71BA6 /* JCChineseToPinyin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBAE52291DF512EB00E71BA6 /* JCChineseToPinyinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBAE52411DF512EC00E71BA6 /* Build configuration list for PBXNativeTarget "JCChineseToPinyinTests" */;
+			buildPhases = (
+				CBAE52261DF512EB00E71BA6 /* Sources */,
+				CBAE52271DF512EB00E71BA6 /* Frameworks */,
+				CBAE52281DF512EB00E71BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBAE522C1DF512EB00E71BA6 /* PBXTargetDependency */,
+			);
+			name = JCChineseToPinyinTests;
+			productName = JCChineseToPinyinTests;
+			productReference = CBAE522A1DF512EB00E71BA6 /* JCChineseToPinyinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CBAE52341DF512EB00E71BA6 /* JCChineseToPinyinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBAE52441DF512EC00E71BA6 /* Build configuration list for PBXNativeTarget "JCChineseToPinyinUITests" */;
+			buildPhases = (
+				CBAE52311DF512EB00E71BA6 /* Sources */,
+				CBAE52321DF512EB00E71BA6 /* Frameworks */,
+				CBAE52331DF512EB00E71BA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBAE52371DF512EC00E71BA6 /* PBXTargetDependency */,
+			);
+			name = JCChineseToPinyinUITests;
+			productName = JCChineseToPinyinUITests;
+			productReference = CBAE52351DF512EC00E71BA6 /* JCChineseToPinyinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBAE52091DF512EB00E71BA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = WJC;
+				TargetAttributes = {
+					CBAE52101DF512EB00E71BA6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 42RY482EA3;
+						ProvisioningStyle = Automatic;
+					};
+					CBAE52291DF512EB00E71BA6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 42RY482EA3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CBAE52101DF512EB00E71BA6;
+					};
+					CBAE52341DF512EB00E71BA6 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 42RY482EA3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CBAE52101DF512EB00E71BA6;
+					};
+				};
+			};
+			buildConfigurationList = CBAE520C1DF512EB00E71BA6 /* Build configuration list for PBXProject "JCChineseToPinyin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBAE52081DF512EB00E71BA6;
+			productRefGroup = CBAE52121DF512EB00E71BA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBAE52101DF512EB00E71BA6 /* JCChineseToPinyin */,
+				CBAE52291DF512EB00E71BA6 /* JCChineseToPinyinTests */,
+				CBAE52341DF512EB00E71BA6 /* JCChineseToPinyinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBAE520F1DF512EB00E71BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAE52241DF512EB00E71BA6 /* LaunchScreen.storyboard in Resources */,
+				CBAE52211DF512EB00E71BA6 /* Assets.xcassets in Resources */,
+				CBAE521F1DF512EB00E71BA6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAE52281DF512EB00E71BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAE52331DF512EB00E71BA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBAE520D1DF512EB00E71BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAE52491DF512F700E71BA6 /* JCChineseToPinyin.m in Sources */,
+				CBAE521C1DF512EB00E71BA6 /* ViewController.m in Sources */,
+				CBAE52191DF512EB00E71BA6 /* AppDelegate.m in Sources */,
+				CBAE52161DF512EB00E71BA6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAE52261DF512EB00E71BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAE522F1DF512EB00E71BA6 /* JCChineseToPinyinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBAE52311DF512EB00E71BA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAE523A1DF512EC00E71BA6 /* JCChineseToPinyinUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBAE522C1DF512EB00E71BA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBAE52101DF512EB00E71BA6 /* JCChineseToPinyin */;
+			targetProxy = CBAE522B1DF512EB00E71BA6 /* PBXContainerItemProxy */;
+		};
+		CBAE52371DF512EC00E71BA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBAE52101DF512EB00E71BA6 /* JCChineseToPinyin */;
+			targetProxy = CBAE52361DF512EC00E71BA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBAE521D1DF512EB00E71BA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBAE521E1DF512EB00E71BA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CBAE52221DF512EB00E71BA6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBAE52231DF512EB00E71BA6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBAE523C1DF512EC00E71BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CBAE523D1DF512EC00E71BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBAE523F1DF512EC00E71BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 42RY482EA3;
+				INFOPLIST_FILE = JCChineseToPinyin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyn88.www.JCChineseToPinyin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBAE52401DF512EC00E71BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 42RY482EA3;
+				INFOPLIST_FILE = JCChineseToPinyin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyn88.www.JCChineseToPinyin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBAE52421DF512EC00E71BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 42RY482EA3;
+				INFOPLIST_FILE = JCChineseToPinyinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyn88.www.JCChineseToPinyinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCChineseToPinyin.app/JCChineseToPinyin";
+			};
+			name = Debug;
+		};
+		CBAE52431DF512EC00E71BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 42RY482EA3;
+				INFOPLIST_FILE = JCChineseToPinyinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyn88.www.JCChineseToPinyinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JCChineseToPinyin.app/JCChineseToPinyin";
+			};
+			name = Release;
+		};
+		CBAE52451DF512EC00E71BA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 42RY482EA3;
+				INFOPLIST_FILE = JCChineseToPinyinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyn88.www.JCChineseToPinyinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JCChineseToPinyin;
+			};
+			name = Debug;
+		};
+		CBAE52461DF512EC00E71BA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 42RY482EA3;
+				INFOPLIST_FILE = JCChineseToPinyinUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyn88.www.JCChineseToPinyinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JCChineseToPinyin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBAE520C1DF512EB00E71BA6 /* Build configuration list for PBXProject "JCChineseToPinyin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAE523C1DF512EC00E71BA6 /* Debug */,
+				CBAE523D1DF512EC00E71BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBAE523E1DF512EC00E71BA6 /* Build configuration list for PBXNativeTarget "JCChineseToPinyin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAE523F1DF512EC00E71BA6 /* Debug */,
+				CBAE52401DF512EC00E71BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBAE52411DF512EC00E71BA6 /* Build configuration list for PBXNativeTarget "JCChineseToPinyinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAE52421DF512EC00E71BA6 /* Debug */,
+				CBAE52431DF512EC00E71BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBAE52441DF512EC00E71BA6 /* Build configuration list for PBXNativeTarget "JCChineseToPinyinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBAE52451DF512EC00E71BA6 /* Debug */,
+				CBAE52461DF512EC00E71BA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBAE52091DF512EB00E71BA6 /* Project object */;
+}
